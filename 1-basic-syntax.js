@@ -25,6 +25,7 @@ console.log(range(15, 30));
 
 function rangeOdd(start, end) {
   const result = [];
+  start = start % 2 === 0 ? start + 1 : start;
   for (let i = start; i <= end; i += 2) {
     result.push(i);
   }
