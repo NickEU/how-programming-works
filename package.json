@@ -1,0 +1,27 @@
+{
+  "name": "how-programming-works",
+  "version": "1.0.0",
+  "description": "exercise solutions ",
+  "main": "index.js",
+  "scripts": {
+    "test": "eslint .",
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NickEU/how-programming-works.git"
+  },
+  "keywords": [
+    "javascript"
+  ],
+  "author": "Nick",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/NickEU/how-programming-works/issues"
+  },
+  "homepage": "https://github.com/NickEU/how-programming-works#readme",
+  "dependencies": {},
+  "devDependencies": {
+    "eslint": "^6.8.0"
+  }
+}
