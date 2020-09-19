@@ -4,7 +4,7 @@
   "description": "exercise solutions ",
   "main": "index.js",
   "scripts": {
-    "test": "eslint .",
+    "test": "jest",
     "start": "node index.js"
   },
   "repository": {
@@ -22,6 +22,7 @@
   "homepage": "https://github.com/NickEU/how-programming-works#readme",
   "dependencies": {},
   "devDependencies": {
-    "eslint": "^6.8.0"
+    "eslint": "^6.8.0",
+    "jest": "^26.4.2"
   }
 }
